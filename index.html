@@ -38,11 +38,11 @@
       <nav
         class="font-bebas flex items-center justify-around bg-white bg-opacity-70 py-4 fixed top-0 left-0 right-0 left-0"
       >
-        <h1 class="text-4xl md:text-5xl text-center md:text-left">Jhaka Naka Production</h1>
+        <a href="#"><h1 class="text-4xl md:text-5xl text-center md:text-left">Jhaka Naka Production</h1></a>
         <ul class="flex justify-evenly gap-3 hidden md:flex text-2xl">
-          <li>About Us</li>
-          <li>Our Movies</li>
-          <li>Services</li>
+          <li><a class="hover:text-yellow transition-all" href="#aboutus">About Us</a></li>
+          <li><a class="hover:text-yellow transition-all" href="#movies">Our Movies</a></li>
+          <li><a class="hover:text-yellow transition-all" href="#services"> Services</a></li>
         </ul>
       </nav>
     </header>
@@ -52,13 +52,12 @@
       <section
         class="h-screen pt-20 bg-cover bg-center bg-[url('images/banner.jpg')] flex items-center"
       >
-        <div class="w-4/6 pl-8">
+        <div class="w-3/6 pl-8">
           <p class="text-white font-bebas">Movie production studio</p>
           <h1 class="text-white font-bebas text-7xl">Films Made to</h1>
           <h1 class="text-yellow font-bebas text-7xl">Perfection</h1>
           <p class="text-white font-mont py-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consectetur possimus unde est repudiandae ipsam et. Molestias vel est vitae facilis? Cupiditate, commodi non. Nostrum et nesciunt quidem, repellat adipisci iste, aut libero, tempora quaerat blanditiis veritatis! Eum dicta labore recusandae ad cumque nobis asperiores delectus laborum reprehenderit, iste quam minus voluptates deserunt debitis accusamus ipsam totam perspiciatis, nisi expedita vitae sapiente? Assumenda eum quibusdam molestiae cumque eaque nesciunt molestias adipisci alias voluptatem iure temporibus perspiciatis, at qui consequatur iusto.
           </p>
           <button
             class="border text-white py-2 px-5 font-bebas hover:bg-yellow hover:border-yellow hover:text-black transition-all"
@@ -68,7 +67,7 @@
         </div>
       </section>
       <!-- About Us -->
-      <section>
+      <section id="aboutus">
         <div class="p-10 border-2 border-black m-5">
           <div class="flex flex-col md:flex-row items-center justify-center gap-10 mb-10">
             <div
@@ -137,7 +136,7 @@
       </section>
 
       <!-- Movie Collection Section -->
-      <section class="bg-offBlack my-8 mx-5">
+      <section id="movies" class="bg-offBlack my-8 mx-5">
         <div class="bg-offBlack p-8 text-white">
           <h3 class="font-bebas text-center md:text-left">Our Movies</h3>
           <div class="flex flex-col md:flex-row md:py-3 items-center justify-between">
@@ -222,7 +221,7 @@
         </div>
       </section>
       <!-- Services Section -->
-      <section>
+      <section id="services">
         <div class="text-center">
           <p class="font-bebas">services</p>
           <h1 class="font-bebas text-4xl pb-6">What we offer</h1>

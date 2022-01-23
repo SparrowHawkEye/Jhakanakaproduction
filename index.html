@@ -32,15 +32,260 @@
       };
     </script>
   </head>
-  <body>
-    <!-- header section -->
-    <header></header>
+  <body class="max-w-screen-2xl mx-auto">
+    <!-- header & nav section -->
+    <header class="relative h-20 flex justify-center">
+      <nav
+        class="font-bebas flex items-center justify-around bg-white bg-opacity-70 py-4 fixed top-0 left-0 right-0 left-0"
+      >
+        <h1 class="text-5xl">Jhaka Naka Production</h1>
+        <ul class="flex justify-evenly gap-3 hidden md:flex text-2xl">
+          <li>About Us</li>
+          <li>Our Movies</li>
+          <li>Services</li>
+        </ul>
+      </nav>
+    </header>
     <!-- Hero section -->
-    <main></main>
+    <main>
+      <!-- hero section  -->
+      <section
+        class="h-screen pt-20 bg-cover bg-center bg-[url('images/banner.jpg')] flex items-center"
+      >
+        <div class="w-4/6 pl-8">
+          <p class="text-white font-bebas">Movie production studio</p>
+          <h1 class="text-white font-bebas text-7xl">Films Made to</h1>
+          <h1 class="text-yellow font-bebas text-7xl">Perfection</h1>
+          <p class="text-white font-mont py-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+          <button
+            class="border text-white py-2 px-5 font-bebas hover:bg-yellow hover:border-yellow hover:text-black transition-all"
+          >
+            Discover More
+          </button>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section>
+        <div class="p-10 border-2 border-black m-5">
+          <div class="flex items-center justify-center gap-10 mb-10">
+            <div
+              class="bg-[url('images/camera-man.jpg')] h-[500px] w-1/2 bg-cover bg-center flex justify-center items-end"
+            >
+              <p
+                class="text-black text-xl px-8 py-2 -mb-5 shadow-lg bg-white rounded-lg"
+              >
+                25 Years Of Experience
+              </p>
+            </div>
+            <div class="w-1/2">
+              <p class="font-bebas">About Us</p>
+              <h1 class="font-bebas text-7xl">Filming Experience</h1>
+              <h1 class="font-bebas text-7xl">Just got better</h1>
+              <p class="font-mont py-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad
+                quo natus tenetur expedita rerum beatae quod. Ipsum beatae
+                architecto non sed labore? Delectus consectetur obcaecati
+                suscipit totam optio eveniet.
+              </p>
+              <button
+                class="border border-black text-black py-2 px-5 font-bebas hover:bg-yellow hover:border-yellow hover:text-white transition-all"
+              >
+                Discover More
+              </button>
+            </div>
+          </div>
+          <!-- our vision/mission/motto card -->
+          <div class="flex gap-9">
+            <div>
+              <h1 class="font-bebas text-4xl border-t-4 py-3 border-black">
+                Our Mission
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                fuga ratione, nam necessitatibus incidunt quasi iure deserunt
+                maiores laudantium, fugit temporibus labore aliquid, ea culpa
+                vero? Expedita labore dignissimos similique!
+              </p>
+            </div>
+            <div>
+              <h1 class="font-bebas text-4xl border-t-4 py-3 border-black">
+                Our Mission
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                fuga ratione, nam necessitatibus incidunt quasi iure deserunt
+                maiores laudantium, fugit temporibus labore aliquid, ea culpa
+                vero? Expedita labore dignissimos similique!
+              </p>
+            </div>
+            <div>
+              <h1 class="font-bebas text-4xl border-t-4 py-3 border-black">
+                Our Mission
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                fuga ratione, nam necessitatibus incidunt quasi iure deserunt
+                maiores laudantium, fugit temporibus labore aliquid, ea culpa
+                vero? Expedita labore dignissimos similique!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Movie Collection Section -->
+      <section></section>
+
+      <!-- Services Section -->
+      <section>
+        <div class="text-center">
+          <p class="font-bebas">services</p>
+          <h1 class="font-bebas text-4xl pb-6">What we offer</h1>
+        </div>
+        <div
+          class="grid grid-rows-2 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 px-5 pb-6"
+        >
+          <!-- card  1-->
+          <div
+            class="flex flex-col items-center justify-center p-8 border-2 border-black"
+          >
+            <img
+              src="images/icons/camera.png"
+              width="60px"
+              height="60px"
+              alt=""
+            />
+            <h3 class="font-bebas text-2xl">movies director</h3>
+            <p>
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- card  2-->
+          <div
+            class="flex flex-col items-center justify-center p-8 border-2 border-black"
+          >
+            <img
+              src="images/icons/3d-glasss.png"
+              width="60px"
+              height="60px"
+              alt=""
+            />
+            <h3 class="font-bebas text-2xl">3d movies</h3>
+            <p>
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- card  3-->
+          <div
+            class="flex flex-col items-center justify-center p-8 border-2 border-black"
+          >
+            <img
+              src="images/icons/director-chair.png"
+              width="60px"
+              height="60px"
+              alt=""
+            />
+            <h3 class="font-bebas text-2xl">Flim Maker</h3>
+            <p>
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- card  4-->
+          <div
+            class="flex flex-col items-center justify-center p-8 border-2 border-black"
+          >
+            <img
+              src="images/icons/film.png"
+              width="60px"
+              height="60px"
+              alt=""
+            />
+            <h3 class="font-bebas text-2xl">Studio Production</h3>
+            <p>
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- card  5-->
+          <div
+            class="flex flex-col items-center justify-center p-8 border-2 border-black"
+          >
+            <img
+              src="images/icons/theater.png"
+              width="60px"
+              height="60px"
+              alt=""
+            />
+            <h3 class="font-bebas text-2xl">Drama movies</h3>
+            <p>
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- card  6-->
+          <div
+            class="flex flex-col items-center justify-center p-8 border-2 border-black"
+          >
+            <img src="images/icons/rim.png" width="60px" height="60px" alt="" />
+            <h3 class="font-bebas text-2xl">Rolling Production</h3>
+            <p>
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- card  7-->
+          <div
+            class="flex flex-col items-center justify-center p-8 border-2 border-black"
+          >
+            <img
+              src="images/icons/cut-board.png"
+              width="60px"
+              height="60px"
+              alt=""
+            />
+            <h3 class="font-bebas text-2xl">Movie Production</h3>
+            <p>
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+          <!-- card  8-->
+          <div
+            class="flex flex-col items-center justify-center p-8 border-2 border-black"
+          >
+            <img
+              src="images/icons/count-down.png"
+              width="60px"
+              height="60px"
+              alt=""
+            />
+            <h3 class="font-bebas text-2xl">actor Action</h3>
+            <p>
+              Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+              dis eget.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Footer Section -->
     <footer
-      class="text-center font-mont py-3 text-sm text-slate-200 bg-slate-500"
+      class="text-center font-mont py-3 text-white text-sm bg-[url('images/footer-bg.jpg')]"
     >
+      <div class="text-center pt-6 pb-10">
+        <h1 class="font-bebas text-7xl">Jhaka Naka Production</h1>
+        <h3 class="font-bebas text-xl">Next Level Experience</h3>
+        <p>
+          Feugiat nibh litora semper proin nullam facilisi volutpat ex
+          ullamcorper
+        </p>
+      </div>
       <p class="m-0">
         © Copyright ©2022 All rights reserved | made with ❤️ by Maksud
         <small>aka</small> <i>Sparrow Hawk Eye</i>

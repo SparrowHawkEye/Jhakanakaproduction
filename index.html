@@ -38,7 +38,7 @@
       <nav
         class="font-bebas flex items-center justify-around bg-white bg-opacity-70 py-4 fixed top-0 left-0 right-0 left-0"
       >
-        <h1 class="text-5xl">Jhaka Naka Production</h1>
+        <h1 class="text-4xl md:text-5xl text-center md:text-left">Jhaka Naka Production</h1>
         <ul class="flex justify-evenly gap-3 hidden md:flex text-2xl">
           <li>About Us</li>
           <li>Our Movies</li>
@@ -70,9 +70,9 @@
       <!-- About Us -->
       <section>
         <div class="p-10 border-2 border-black m-5">
-          <div class="flex items-center justify-center gap-10 mb-10">
+          <div class="flex flex-col md:flex-row items-center justify-center gap-10 mb-10">
             <div
-              class="bg-[url('images/camera-man.jpg')] h-[500px] w-1/2 bg-cover bg-center flex justify-center items-end"
+              class="bg-[url('images/camera-man.jpg')] h-[500px] w-full md:w-1/2 bg-cover bg-center flex justify-center items-end"
             >
               <p
                 class="text-black text-xl px-8 py-2 -mb-5 shadow-lg bg-white rounded-lg"
@@ -80,7 +80,7 @@
                 25 Years Of Experience
               </p>
             </div>
-            <div class="w-1/2">
+            <div class="w-full md:w-1/2">
               <p class="font-bebas">About Us</p>
               <h1 class="font-bebas text-7xl">Filming Experience</h1>
               <h1 class="font-bebas text-7xl">Just got better</h1>
@@ -98,7 +98,7 @@
             </div>
           </div>
           <!-- our vision/mission/motto card -->
-          <div class="flex gap-9">
+          <div class="flex flex-col md:flex-row gap-9">
             <div>
               <h1 class="font-bebas text-4xl border-t-4 py-3 border-black">
                 Our Mission
@@ -137,8 +137,90 @@
       </section>
 
       <!-- Movie Collection Section -->
-      <section></section>
-
+      <section class="bg-offBlack my-8 mx-5">
+        <div class="bg-offBlack p-8 text-white">
+          <h3 class="font-bebas text-center md:text-left">Our Movies</h3>
+          <div class="flex flex-col md:flex-row md:py-3 items-center justify-between">
+            <h1 class="font-bebas text-center md:text-left my-6 md:my-0 text-5xl">Movie collection</h1>
+            <button
+              class="border text-white py-2 px-5 font-bebas hover:bg-yellow hover:border-yellow hover:text-black transition-all"
+            >
+              Discover More
+            </button>
+          </div>
+        </div>
+        <!-- card container -->
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-3 lg:gap-6 px-6 pb-8"">
+          <!-- card -->
+          <div class="">
+            <div class="border-2 p-5 border-white">
+              <div
+                class="text-white w-full h-[350px] bg-cover bg-center bg-[url('images/tenet.jpg')] flex items-center justify-center"
+              >
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-5xl font-bebas"
+                >
+                  Tenet</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="">
+            <div class="border-2 p-5 border-white">
+              <div
+                class="text-white w-full h-[350px] bg-cover bg-center bg-[url('images/tenet.jpg')] flex items-center justify-center"
+              >
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-5xl font-bebas"
+                >
+                  Tenet</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="">
+            <div class="border-2 p-5 border-white">
+              <div
+                class="text-white w-full h-[350px] bg-cover bg-center bg-[url('images/tenet.jpg')] flex items-center justify-center"
+              >
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-5xl font-bebas"
+                >
+                  Tenet</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="">
+            <div class="border-2 p-5 border-white">
+              <div
+                class="text-white w-full h-[350px] bg-cover bg-center bg-[url('images/tenet.jpg')] flex items-center justify-center"
+              >
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-5xl font-bebas"
+                >
+                  Tenet</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Services Section -->
       <section>
         <div class="text-center">
@@ -276,7 +358,7 @@
     </main>
     <!-- Footer Section -->
     <footer
-      class="text-center font-mont py-3 text-white text-sm bg-[url('images/footer-bg.jpg')]"
+      class="text-center font-mont py-3 px-5 text-white text-sm bg-[url('images/footer-bg.jpg')]"
     >
       <div class="text-center pt-6 pb-10">
         <h1 class="font-bebas text-7xl">Jhaka Naka Production</h1>
